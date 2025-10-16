@@ -16,7 +16,21 @@
       </ul>
     </nav>
   </header>
-
+  <div class="search-bar">
+    <input 
+      id="search" 
+      type="search" 
+      placeholder="Start typing to search..." 
+      list="search-suggestions" 
+      autocomplete="off"
+    />
+  
+   <datalist id="search-suggestions">
+      <option value="The Art of Simplicity">
+      <option value="Focus in a Distracted World">
+      <option value="Designing Without Color">
+    </datalist>
+  </div>
   <main id="homePage" class="page">
     <section class="posts">
   <article class="post p1" onclick="openArticle(0)">
