@@ -33,7 +33,7 @@ main {
   padding: 20px;
 }
 
-.posts{
+.posts article{
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
   cursor: pointer;
